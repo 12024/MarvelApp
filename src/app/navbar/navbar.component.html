@@ -7,8 +7,8 @@
     <mat-toolbar color="primary">Menu</mat-toolbar>
 
     <mat-nav-list>
-      <a mat-list-item [routerLink]="['characters']">Comic</a>
-      <a mat-list-item href="#">Series</a>
+      <a mat-list-item routerLink="/characters">Comic</a>
+      <a mat-list-item routerLink="/series">Series</a>
     </mat-nav-list>
 
   </mat-sidenav>
@@ -23,10 +23,12 @@
         mat-icon-button
         (click)="drawer.toggle()"
         *ngIf="isHandset$ | async">
-        <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
+        <mat-icon aria-label="Side nav toggle icon">Menu</mat-icon>
       </button>
 
-      <span>MarvelApp</span>
+      <span><span class="material-icons">
+        star_border_purple500
+        </span> MarvelApp</span>
     </mat-toolbar>
 
 
@@ -34,3 +36,4 @@
     <router-outlet></router-outlet>
   </mat-sidenav-content>
 </mat-sidenav-container>
+

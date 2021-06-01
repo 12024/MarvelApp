@@ -15,9 +15,11 @@ import { MatListModule } from '@angular/material/list';
 import { CharacterComponent } from './characters/character/character.component';
 import { CharactersComponent } from './characters/characters.component';
 import { HttpClientModule } from '@angular/common/http';
-import{ FlexLayoutModule } from '@angular/flex-layout';
+import { FlexLayoutModule } from '@angular/flex-layout';
 import { MatCardModule } from '@angular/material/card';
-import {MatFormFieldModule} from '@angular/material/form-field';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { SerieComponent } from './series/serie/serie.component';
+import { SeriesComponent } from './series/series.component';
 
 
 
@@ -26,7 +28,9 @@ import {MatFormFieldModule} from '@angular/material/form-field';
     AppComponent,
     NavbarComponent,
     CharacterComponent,
-    CharactersComponent
+    CharactersComponent,
+    SerieComponent,
+    SeriesComponent
   ],
   imports: [
     BrowserModule,
