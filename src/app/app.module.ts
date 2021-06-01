@@ -20,6 +20,7 @@ import { MatCardModule } from '@angular/material/card';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { SerieComponent } from './series/serie/serie.component';
 import { SeriesComponent } from './series/series.component';
+import { DetailComponent } from './series/detail/detail.component';
 
 
 
@@ -30,7 +31,8 @@ import { SeriesComponent } from './series/series.component';
     CharacterComponent,
     CharactersComponent,
     SerieComponent,
-    SeriesComponent
+    SeriesComponent,
+    DetailComponent
   ],
   imports: [
     BrowserModule,
