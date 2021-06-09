@@ -20,7 +20,12 @@ import { MatCardModule } from '@angular/material/card';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { SerieComponent } from './series/serie/serie.component';
 import { SeriesComponent } from './series/series.component';
+<<<<<<< HEAD
 import { DetailComponent } from './series/serie/detail/detail.component';
+||||||| 133ca34
+=======
+import { DetailComponent } from './series/detail/detail.component';
+>>>>>>> 7b5b598f571c6c416f361a25fe1c7d022279ab05
 
 
 
