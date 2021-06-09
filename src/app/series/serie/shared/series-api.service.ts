@@ -19,5 +19,11 @@ export class SeriesApiService {
   getAllSeries () : Observable<any>{
     return this.http.get<any>(this.URL_API)
     .pipe(map((data: any) => data.data.results))
+  };
+
+  //detail service
+  getDetail (id:any){
+    return this.http.get<any>(`${this.URL_API}/series/${id}`)
+    .pipe(map((data:any) => data.data.results))
   }
 }

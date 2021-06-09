@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { CharactersComponent } from './characters/characters.component';
 import { SeriesComponent } from './series/series.component';
+import { DetailComponent } from './series/serie/detail/detail.component';
 
 const routes: Routes = [
   {
@@ -13,6 +14,11 @@ const routes: Routes = [
   {
     path: 'series', component: SeriesComponent
   },
+  {
+    path: 'series/:id', component: DetailComponent
+  }
+
+
 
 ];
 
